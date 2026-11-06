@@ -1118,3 +1118,4 @@ module.exports = (req, res) => {
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.end(renderPage('404 Not Found', '', '<div class="container text-center" style="padding: 10rem 0;"><h1>404 — Lost in Fog</h1><p><a href="/" class="btn btn-primary">Return to Safety</a></p></div>'));
 };
+
