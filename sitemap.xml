@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost/index.php</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://localhost/explore.php</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://localhost/map.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://localhost/stories.php</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost/submit-story.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost/about.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Verified Places -->
+  <url><loc>http://localhost/place.php?slug=panam-city-sonargaon</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=lalbagh-fort-dhaka</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=mahasthangarh-ancient-pundranagara</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=puthia-rajbari-complex</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=wari-bateshwar-ancient-port</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=bhawal-rajbari-sannyasi-court</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=foys-lake-batali-hill-chattogram</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=jaintia-megalithic-monuments-sylhet</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=kuakata-ancient-rakhine-wells</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=ramsagar-dighi-dinajpur</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=sundarbans-aleya-ghost-lights</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=baliati-palace-manikganj</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=uttara-ganabhaban-dighapatia-palace</loc><priority>0.85</priority></url>
+  <url><loc>http://localhost/place.php?slug=choto-sona-mosque-gaur-ruins</loc><priority>0.85</priority></url>
+</urlset>
+

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#08090D" />
+      <stop offset="65%" stop-color="#11131A" />
+      <stop offset="100%" stop-color="#171922" />
+    </linearGradient>
+    <radialGradient id="ambientGlow" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#a01c34" stop-opacity="0.45" />
+      <stop offset="60%" stop-color="#08090D" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#08090D" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14161f" />
+      <stop offset="100%" stop-color="#08090D" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#skyGrad)" />
+  <rect width="1200" height="700" fill="url(#ambientGlow)" />
+
+  <!-- Moon Silhouette -->
+  <circle cx="880" cy="140" r="42" fill="#f2f0ef" opacity="0.12" />
+  <circle cx="868" cy="135" r="38" fill="#08090D" />
+
+  <!-- Architectural Structure Silhouette -->
+  <path d="M 200,500 L 200,220 L 1000,220 L 1000,500 M 280,500 L 280,220 M 400,500 L 400,220 M 520,500 L 520,220 M 680,500 L 680,220 M 800,500 L 800,220 M 920,500 L 920,220" stroke="#a01c34" stroke-width="4" fill="#0d0f15" opacity="0.85" />
+
+  <!-- Ground Plane -->
+  <rect x="0" y="500" width="1200" height="200" fill="url(#groundGrad)" />
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+
+  <!-- Foreground Fog -->
+  <rect x="0" y="460" width="1200" height="240" fill="url(#skyGrad)" opacity="0.55" />
+
+  <!-- Typography Overlay -->
+  <text x="60" y="605" font-family="'Cinzel', Georgia, serif" font-size="34" font-weight="bold" letter-spacing="4" fill="#F2F0EF">BALIATI PALACE</text>
+  <text x="60" y="642" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" letter-spacing="2" fill="#A6A6AD">Neoclassical Colonnades of Manikganj Zamindars</text>
+  <text x="1140" y="642" text-anchor="end" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" letter-spacing="2" fill="#a01c34">SHADOWS OF BANGLA</text>
+</svg>

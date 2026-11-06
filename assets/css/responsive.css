@@ -1,0 +1,150 @@
+/**
+ * SHADOWS OF BANGLA — Responsive Stylesheet
+ * Optimizations for Tablet, Mobile, and Small Viewports
+ */
+
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  .place-details-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .sidebar-sticky {
+    position: static;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+  .mystery-grid {
+    grid-template-columns: 1fr;
+  }
+  .mystery-img-wrap {
+    height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 3.5rem 0;
+  }
+  .section-title {
+    font-size: 1.85rem;
+  }
+  .hero-section {
+    padding: 7rem 0 4rem;
+    min-height: 90vh;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-tagline {
+    font-size: 1rem;
+  }
+  .hero-quote {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 2.5rem;
+  }
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  /* Off-canvas mobile navigation */
+  .mobile-nav-toggle {
+    display: block;
+    z-index: 1001;
+  }
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 82%;
+    max-width: 340px;
+    height: 100vh;
+    background: #0d0f15;
+    border-left: 1px solid var(--border-subtle);
+    box-shadow: -10px 0 30px rgba(0,0,0,0.8);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5.5rem 2rem 2rem;
+    gap: 1.5rem;
+    transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 1000;
+  }
+  .nav-menu.active {
+    right: 0;
+  }
+  .nav-link {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .audio-control-pill {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.7rem;
+  }
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  #bangladesh-map {
+    height: 450px;
+  }
+  .map-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .map-filters {
+    flex-direction: column;
+    width: 100%;
+  }
+  .map-select {
+    width: 100%;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .stat-number {
+    font-size: 2.5rem;
+  }
+  .summon-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  .content-box {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+    letter-spacing: 0.08em;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .card-media {
+    height: 190px;
+  }
+  .modal-content {
+    padding: 1.5rem;
+  }
+}
+
