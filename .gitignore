@@ -16,3 +16,6 @@ ehthumbs.db
 .vercel
 node_modules
 
+
+.vercel
+.env*
